@@ -11,6 +11,7 @@ def get_steam_price(app_id):
             print(f"Price on Steam: {price_info['final_formatted']}")
             print("Its on sale on Steam!!")
         elif discount == 0:
+            print(f"Price on Steam: {price_info['final_formatted']}")
             print("Retail price btw")
         else:
             print("No price information found.")
